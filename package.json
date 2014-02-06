@@ -1,0 +1,36 @@
+{
+  "name": "health-monitor",
+  "version": "0.1.0",
+  "description": "Module for monitoring services on tcp, http.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint test/ index.js && ./node_modules/.bin/mocha -R spec test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinj/node-health-monitor"
+  },
+  "keywords": [
+    "monitor",
+    "health",
+    "status",
+    "uptime",
+    "tcp",
+    "http"
+  ],
+  "author": "Martin Jonsson <martin.jonsson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinj/node-health-monitor/issues"
+  },
+  "dependencies": {
+    "debug": "~0.7.4"
+  },
+  "devDependencies": {
+    "jshint": "~2.4.3",
+    "mocha": "~1.17.1",
+    "nock": "~0.27.2",
+    "should": "~3.1.2",
+    "sinon": "~1.7.3"
+  }
+}
